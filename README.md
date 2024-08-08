@@ -2,17 +2,13 @@
 ## I’m @aydansoupama
 
 ✨ Passionate about web development, I’m constantly exploring new technologies and innovative projects. Here’s a glimpse of what drives me:
+
 ```mermaid
-graph LR
-    A[Sleep] -->|7:00 AM|> B[Eat]
-    B -->|8:00 AM|> C[Code]
-    C -->|12:00 PM|> B
-    B -->|1:00 PM|> C
-    C -->|6:00 PM|> B
-    B -->|7:00 PM|> D[Relax]
-    D -->|9:00 PM|> A
+graph RL
+    A[Code] --> B[Eat]
+    B --> C[Sleep]
+    C -->A
 ```
-Is this code good?
 
 ## Some important infos
 -    🔭 Interests: Crafting elegant and efficient web solutions. I’m diving into the world of NestJS and Ruby on Rails (RoR), while also skilled in HTML, CSS, JavaScript, TypeScript, Next.js, Laravel, PHP, and Symfony.
