@@ -4,10 +4,10 @@
 ✨ Passionate about web development, I’m constantly exploring new technologies and innovative projects. Here’s a glimpse of what drives me:
 
 ```mermaid
-graph TD;
-  Code-->Eat;
-  Eat-->Sleep;
-  Sleep->Code;
+  graph TD;
+    Code-->Eat;
+    Eat-->Sleep;
+    Sleep->Code;
 ```
 
 ## Some important infos
