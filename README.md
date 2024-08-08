@@ -4,10 +4,14 @@
 ✨ Passionate about web development, I’m constantly exploring new technologies and innovative projects. Here’s a glimpse of what drives me:
 
 ```mermaid
-  graph TD;
-      Code-->Eat;
-      Eat-->Sleep;
-      Sleep->Code;
+graph LR
+    A[Sleep] -->|7:00 AM|> B[Eat]
+    B -->|8:00 AM|> C[Code]
+    C -->|12:00 PM|> B
+    B -->|1:00 PM|> C
+    C -->|6:00 PM|> B
+    B -->|7:00 PM|> D[Relax]
+    D -->|9:00 PM|> A
 ```
 
 ## Some important infos
